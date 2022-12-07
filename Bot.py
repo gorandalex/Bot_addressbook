@@ -6,30 +6,12 @@ class Bot:
     def __init__(self):
         self.book = AddressBook()
 
-    def corrector(handler):
-        def wrapper(*args, **kwargs):
-            try:
-                result = handler(*args, **kwargs)
-                return result
-            except KeyError:
-                return 'Enter user name.'
-            except ValueError as e:
-                return e.args[0]
-            except IndexError:
-                return 'Give me name and phone'
-            except TypeError:
-                return 'Give me name and phone'
-        return wrapper
-
-    @corrector
     def answer_exit():
         return 'Good bye!'
 
-    @corrector
     def hello(self):
         print("Hello! How can I help you?")
 
-    @corrector
     def add_contact(self):
         name = Name()
         if name.value in self.book.data:
@@ -46,7 +28,6 @@ class Bot:
             
         print(f'Contact {name.value} is added')
         
-    @corrector
     def delete_contact(self):
         name = Name()
         if name.value in self.book.data:
@@ -55,7 +36,6 @@ class Bot:
         else:
             print(f'Contact {name.value} not found')
             
-    @corrector
     def add_phone(self):
         name = Name()
         if name.value in self.book.data:
@@ -64,7 +44,6 @@ class Bot:
         else:
             print(f'Contact {name.value} not found')
             
-    @corrector
     def add_email(self):
         name = Name()
         if name.value in self.book.data:
@@ -73,7 +52,6 @@ class Bot:
         else:
             print(f'Contact {name.value} not found')
 
-    @corrector
     def add_birthday(self):
         name = Name()
         if name.value in self.book.data:
@@ -91,7 +69,6 @@ class Bot:
         else:
             print(f'Contact {name.value} not found')
             
-    @corrector
     def search_contact(self):
         name = Name()
         if name.value in self.book.data:
@@ -100,7 +77,6 @@ class Bot:
         else:
             print(f'Contact {name.value} not found')
             
-    @corrector
     def delete_phone(self):
         name = Name()
         if name.value in self.book.data:

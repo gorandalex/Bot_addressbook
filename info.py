@@ -3,25 +3,23 @@ from re import search, match
 from abc import ABC, abstractmethod
 
 
-class Record():
+class Record:
     def __init__(self, name):
         self.name = name
         self.phones = []
 
     def add_information(self, info):
         info.change_information(self)
-      
+
     def delete_phone(self, phone):
         for record_phone in self.phones:
             if record_phone.value == phone.value:
                 self.phones.pop(record_phone)
                 return f'Phone {phone.value} deleted'
         return f'Phone {phone.value} not found'
-          
+
     def show_information(self):
         ...
-
-        
 
 
 class Field(ABC):
@@ -41,10 +39,9 @@ class Field(ABC):
 class Address(Field):
     def __init__(self):
         self.value = Address.show_question()
-        
+
     def change_information(self, record):
         record.address = self
-
 
     @staticmethod
     def show_question():
@@ -90,7 +87,7 @@ class Birthday(Field):
                     if args:
                         break
                 if value == '':
-                    break            
+                    break
                 elif not args or len(args) > 2:
                     raise ValueError("Invalide date format. Date format should be YYYY.MM.DD or DD.MM.YYYY.")
                 else:
@@ -102,7 +99,8 @@ class Birthday(Field):
             except ValueError:
                 print('Invalide date format. Date format should be YYYY.MM.DD or DD.MM.YYYY.')
         return value
-    
+
+
 class Email(Field):
     def __init__(self):
         self.value = Email.show_question()
@@ -126,7 +124,6 @@ class Email(Field):
             Example of emails: my.ownsite@our-earth.org
                                 ankitrai326@gmail.com""")
         return value
-
 
 
 class Name(Field):
@@ -164,5 +161,4 @@ class Phone(Field):
 
 
 class Note:
-
     pass
