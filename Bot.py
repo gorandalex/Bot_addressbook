@@ -60,7 +60,6 @@ class Bot:
         else:
             print(f'Contact {name.value} not found')
 
-    @corrector
     def add_address(self):
         name = Name()
         if name.value in self.book.data:
