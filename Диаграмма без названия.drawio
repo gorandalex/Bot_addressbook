@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" modified="2022-12-05T10:59:18.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="chmBO1iTwDNk_ju96fdN" version="20.6.0" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1135" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Field&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _value: str&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-2" target="ki_XVSSsE5IfiG-xtUwC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="85" y="100" />
+              <mxPoint x="425" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _value: str&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ check_address(): str&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Birthday&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _value: str&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ check_date(): str&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-4" target="ki_XVSSsE5IfiG-xtUwC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Phone&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _value: str&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ value(): None&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-5" target="ki_XVSSsE5IfiG-xtUwC-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="100" />
+              <mxPoint x="425" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Email&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _value: str&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ value(): None&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-6" target="ki_XVSSsE5IfiG-xtUwC-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="100" />
+              <mxPoint x="425" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ _value: str&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-3" target="ki_XVSSsE5IfiG-xtUwC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="50" as="targetPoint" />
+            <mxPoint x="95" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="255" y="100" />
+              <mxPoint x="425" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;startArrow=diamond;startFill=1;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-16" target="ki_XVSSsE5IfiG-xtUwC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=1;endArrow=open;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-16" target="ki_XVSSsE5IfiG-xtUwC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-16" target="ki_XVSSsE5IfiG-xtUwC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="250" />
+              <mxPoint x="425" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-16" target="ki_XVSSsE5IfiG-xtUwC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="250" />
+              <mxPoint x="595" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-16" target="ki_XVSSsE5IfiG-xtUwC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="250" />
+              <mxPoint x="765" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-16" value="Record" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="280" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-17" value="+ name: Name&#xa;+ phone: Phone&#xa;+ email: Email&#xa;+ birthday: Birthday&#xa;+ address: Address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-16">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-16">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-19" value="+ add_phone(str)&#xa;+ delete_phone(str)&#xa;+ get_data&#xa;+ add_email(str)&#xa;+ delete_email&#xa;+ add_birthday(str)&#xa;+ delete_birthday&#xa;+ delete_address&#xa;+ add_address(str)&#xa;+ days_to_birthday&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-16">
+          <mxGeometry y="108" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-26" value="AddressBook" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="280" width="215" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-27" value="+ data: list&#xa;+ notes: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-26">
+          <mxGeometry y="26" width="215" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-26">
+          <mxGeometry y="70" width="215" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-29" value="+ add_record(Record): str&#xa;+ return_record_by_name(str): Record&#xa;+ remove_record(Record): str&#xa;+ search_contact(str): str&#xa;+ add_note(str, str, str): str&#xa;+ add_desc_to_note(Note): str&#xa;+ add_tag_to_note(Note): str&#xa;+ search_notes_by_tags(str): str&#xa;+ sort_notes_by_tags&#xa;+ remove_note(str): str&#xa;+ save_to_file(str): None&#xa;+ read_from_file(str): None&#xa;+ delete_name(str): bool&#xa;+ show_birthday(str): str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-26">
+          <mxGeometry y="78" width="215" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-32" value="Note" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="160" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-33" value="+ note&#xa;+ description&#xa;+ tags" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-32">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ki_XVSSsE5IfiG-xtUwC-32">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ki_XVSSsE5IfiG-xtUwC-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="ki_XVSSsE5IfiG-xtUwC-27" target="ki_XVSSsE5IfiG-xtUwC-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="328" />
+              <mxPoint x="610" y="328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
