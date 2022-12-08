@@ -25,6 +25,11 @@ def main():
         #     'birthday': birthday,
         'close': bot.answer_exit
     }
+    
+    print('Hello. I am your contact-assistant. What should I do with your contacts?')
+    bot = Bot()
+    bot.book.load("auto_save")
+    
     while True:
         user_command = input('Введіть команду для бота: ').strip().lower()
         command = COMMANDS.get(user_command, Bot.command_error)
@@ -40,7 +45,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print('Hello. I am your contact-assistant. What should I do with your contacts?')
-    bot = Bot()
-    bot.book.load("auto_save")
     main()
