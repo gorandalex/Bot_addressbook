@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bot-addressbook"
+version = "0.1.0"
+description = ""
+authors = ["gorandalex <andrii.gorobets@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bot_addressbook"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+levenshtein = "^0.20.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
