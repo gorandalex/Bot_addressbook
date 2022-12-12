@@ -1,7 +1,12 @@
 FROM python:3.10
 
-RUN mkdir -p /usr/src/app/
-WORKDIR /usr/src/app/
+WORKDIR /app
 
-COPY ./usr/src/app/
-CMD ['python', '__main__.py']
+ENV POETRY_VIRTUALENVS_CREATE=false
+RUN pip install poetry
+
+COPY ["poetry.lock", "pyproject.toml", "/app/"]
+RUN poetry install --no-ansi --no-interaction
+
+COPY . /app
+CMD ["python", "__main__.py"]

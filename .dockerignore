@@ -1,0 +1,7 @@
+__pycashe__
+.idea
+venv
+.dockerignore
+.gitignore
+LICENSE
+README.md
